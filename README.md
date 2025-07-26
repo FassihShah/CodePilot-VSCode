@@ -81,8 +81,8 @@ If you want to run the backend locally or contribute to development:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/FassihShah/CodePilot.git
-   cd CodePilot
+   git clone https://github.com/FassihShah/CodePilot-VSCode.git
+   cd CodePilot-VSCode
    ```
 
 2. **Install Python dependencies**
