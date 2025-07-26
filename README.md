@@ -21,6 +21,35 @@ All features are powered by specialized AI agents built with LangGraph workflows
 https://github.com/user-attachments/assets/4eb5eef4-7464-4b5d-94c0-3b9f59dc0329
 
 
+## 🗂️ Project Structure
+
+```
+CodePilot-VSCode/
+├── 📁 backend/                    # FastAPI backend
+│   ├── 📁 agents/                 # AI agent implementations
+│   │   ├── 🐍 boilerplate_agent.py    # Template generation agent
+│   │   ├── 🐍 chat_agent.py            # RAG-powered chat agent
+│   │   ├── 🐍 code_editor_agent.py     # Code editing agent
+│   │   ├── 🐍 code_explainer_agent.py  # Code explanation agent
+│   │   └── 🐍 embed_saver_agent.py     # Vector embedding agent
+│   └── 🐍 main.py                      # FastAPI application entry
+├── 📁 vscode-extension/           # Extension source code
+│   ├── 📁 src/
+│   │   └── 📁 commands/           # VS Code command implementations
+│   │       ├── 📄 boilerplates.ts     # Boilerplate generation
+│   │       ├── 📄 chat.ts             # Codebase chat functionality  
+│   │       ├── 📄 editor.ts           # Code editing command
+│   │       └── 📄 explainer.ts        # Code explanation command
+│   ├── 📄 extension.ts            # Main extension entry point
+│   ├── 🎨 icon.png                # Extension icon
+│   ├── 📄 package.json            # Extension manifest
+│   ├── 📄 package-lock.json       # Dependency lock file
+│   ├── 📄 README.md               # Extension documentation
+├── 📄 README.md                   # This File
+└── 📄 requirements.txt            # Python dependencies
+```
+
+
 ## 🧠 Architecture - Agents and Backend
 
 CodePilot uses a sophisticated multi-agent architecture where each command is handled by a specialized **LangGraph agent**:
@@ -44,6 +73,7 @@ The Chat Agent specifically uses RAG to provide contextual responses by:
 2. Retrieving relevant code snippets based on your questions
 3. Using the retrieved context to provide accurate, project-specific answers
 
+
 ## 🛠️ Installation & Usage
 
 ### 🔌 Install from VS Code Marketplace
@@ -53,6 +83,8 @@ The Chat Agent specifically uses RAG to provide contextual responses by:
 3. Search for: `CodePilot-AI`
 4. Click **Install** or [Install directly from Marketplace](https://marketplace.visualstudio.com/items?itemName=Fassih.codepilot-ai)
 5. Reload VS Code
+
+Note: The demo backend is temporarily deployed for testing purposes and may not always be available.
 
 ### 🚀 Using CodePilot
 
