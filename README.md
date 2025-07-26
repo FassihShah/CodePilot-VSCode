@@ -84,7 +84,7 @@ The Chat Agent specifically uses RAG to provide contextual responses by:
 4. Click **Install** or [Install directly from Marketplace](https://marketplace.visualstudio.com/items?itemName=Fassih.codepilot-ai)
 5. Reload VS Code
 
-Note: The demo backend is temporarily deployed for testing purposes and may not always be available.
+ ⚠️ Note: The demo backend is temporarily deployed for testing purposes and may not always be available.
 
 ### 🚀 Using CodePilot
 
