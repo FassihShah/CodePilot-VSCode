@@ -65,8 +65,8 @@ Once installed, you can access CodePilot commands through:
 
 1. **Edit Code**: Select a function, right-click → "CodePilot: Edit Code" → Describe your changes
 2. **Explain Code**: Highlight complex code → "CodePilot: Explain Code" → Get instant explanation
-3. **Chat With Codebase**: Use command palette → Ask "Where is user authentication handled?"
-4. **Generate Boilerplate**: Create new files with instant project templates
+3. **Chat With Codebase**: Right click and start Chat → Ask "Where is user authentication handled?"
+4. **Generate Boilerplate**: Create new files with boilerplates by telling your need
 
 ## 🧪 Local Development Setup
 
