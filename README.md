@@ -45,6 +45,7 @@ CodePilot-VSCode/
 │   ├── 📄 package.json            # Extension manifest
 │   ├── 📄 package-lock.json       # Dependency lock file
 │   ├── 📄 README.md               # Extension documentation
+├── 📄 LICENSE                     # MIT License
 ├── 📄 README.md                   # This File
 └── 📄 requirements.txt            # Python dependencies
 ```
