@@ -51,7 +51,7 @@ The Chat Agent specifically uses RAG to provide contextual responses by:
 1. Open **VS Code**
 2. Navigate to **Extensions** tab
 3. Search for: `CodePilot-AI`
-4. Click **Install** or [Install directly from Marketplace](https://marketplace.visualstudio.com/items?itemName=CodePilot-AI)
+4. Click **Install** or [Install directly from Marketplace](https://marketplace.visualstudio.com/items?itemName=Fassih.codepilot-ai)
 5. Reload VS Code
 
 ### 🚀 Using CodePilot
